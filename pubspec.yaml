@@ -1,0 +1,24 @@
+name: local_storage_lab
+description: "Card Catalogue: Flutter and SQLite local storage lab, Part II (In-Class Activity 09). Extends the Part I Fall Festival Roster."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.4.1
+  path_provider: ^2.1.5
+  path: ^1.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/cards/sample_card.png
